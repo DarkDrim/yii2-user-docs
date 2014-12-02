@@ -30,11 +30,11 @@ it will be used instead of the original view.
 Example
 -------
 
-An example of overriding registration page view demonstrated below. Make sure you
+An example of overriding the registration page view is demonstrated below.First make sure you
 have configured view application component.
 
-In order to override registration view file you have to create
-**@app/views/user/registration/register.php**. Open it and paste there following
+In order to override the registration view file you have to create
+**@app/views/user/registration/register.php**. Open it and paste in the following
 code:
 
 .. code-block:: php
@@ -53,7 +53,7 @@ code:
     $this->params['breadcrumbs'][] = $this->title;
     ?>
     <div class="alert alert-success">
-        <p>This view file has been overrided!</p>
+        <p>This view file has been overriden!</p>
     </div>
     <div class="row">
         <div class="col-md-4 col-md-offset-4">
@@ -84,6 +84,6 @@ code:
     </div>
 
 
-Then open registration page and make sure that you see **'This view file has been overrided!'**.
+Then open registration page and make sure that you see **'This view file has been overriden!'**.
 If you don't make sure you have properly configured your view component and
 created view file in needed location.
